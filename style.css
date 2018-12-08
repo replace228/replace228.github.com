@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#field {
+    position: relative;
+    width: 385px;
+    height: 385px;
+    margin: 50px auto 0 auto;
+    background-color: darkgrey;
+}
+
+.field-cell {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 3px;
+}
+
+.field-cell-null {
+    background-color: blueviolet;
+}
+
+.field-cell-tile {
+    color: white;
+    font-size: 36px;
+    font-weight: 900;
+    background-color: darkviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: left 0.5s ease, top 0.5s ease;
+	cursor: pointer;
+}
